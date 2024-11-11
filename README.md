@@ -55,7 +55,7 @@ Socket programming finds applications in various domains, including web developm
 
 ## Program :
 
- ## Client.py
+ **Client.py**
 ~~~
 import socket
 from datetime import datetime
@@ -72,7 +72,7 @@ if ack:
 c.close()
 ~~~
 
-## server.py
+**Server.py**
 ~~~
 import socket
 s=socket.socket()
@@ -83,7 +83,7 @@ s.send("acknowledgement recived from the server".encode())
 ~~~
 
 ## Output :
-!![WhatsApp Image 2024-11-11 at 20 47 29_d84a91cc](https://github.com/user-attachments/assets/d7f79282-2141-4f77-9736-2ed2d66874af)
+![WhatsApp Image 2024-11-11 at 20 47 29_d84a91cc](https://github.com/user-attachments/assets/d7f79282-2141-4f77-9736-2ed2d66874af)
 
 
 
